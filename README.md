@@ -12,3 +12,6 @@ Architecture: The CNN architecture is carefully crafted to effectively extract h
 Training and Evaluation: The model is trained using the Adam optimizer and binary cross-entropy loss function. During training, the model iterates over multiple epochs, gradually adjusting its parameters to minimize the prediction error on the training data. Subsequently, the model's performance is evaluated on a separate test dataset to assess its ability to generalize to unseen images. Metrics such as accuracy are computed to quantify the model's effectiveness.
 
 Prediction: Once trained, the model can make predictions on individual images, allowing users to input their own images and obtain predictions on whether they contain a cat or a dog. This functionality is particularly useful for real-world applications where automated image classification is required.
+
+Note: The dataset  is too big, which I am unable to upload. You will find the dataset from kaggle.
+
